@@ -1,5 +1,5 @@
 $("#augmenter").click(function() {
-    $("#box").height("60px");
+    $("#box").height(120);
 });
 
 $("#recolorer").click(function() {
@@ -15,5 +15,5 @@ $("#apparaitre").click(function() {
 });
 
 $("#restaurer").click(function() {
-    $("#box").css("backgroundColor","darkorange");
+    $("#box").css("backgroundColor","darkorange").height(60);
 });
