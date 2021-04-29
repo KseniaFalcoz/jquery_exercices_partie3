@@ -1,0 +1,12 @@
+#box {
+    height: 60px;
+    margin : 5px;
+    background-color: darkorange;
+    border-radius: 5px;
+}
+#recolorer {
+    background-color: darkseagreen;
+}
+#restaurer {
+    background-color: darkorange;
+}
