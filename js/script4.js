@@ -1,5 +1,5 @@
 $("#augmenter").click(function() {
-    $("#box").height(120);
+    $("#box").css("height", "+=60");
 });
 
 $("#recolorer").click(function() {

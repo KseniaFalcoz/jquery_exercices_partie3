@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr">
 <head>
-    <title>Exercice 2 Partie 3 JQuery</title>
+    <title>Exercice CANVAS Partie 3 JQuery</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,15 +10,19 @@
 </head>
 <body>
     <div class="container col-12 col-lg-6 rounded text-center mt-4">
-        <h1>Exercice 2 Partie 3 JQuery</h1>
-        <p>Créer deux boutons. L'un pour incrémenter; l'autre pour décrémenter.<br>Un input récupère les valeurs.</p>
-        <div class="row justify-content-around p-4">
-            <button id="plusClick" type="button" class="btn btn-primary">plus</button>
-            <input id="nbClicks" type="text" class="text-center" placeholder="nombre de clicks">
-            <button id="minusClick" type="button" class="btn btn-danger">minus</button>
+        <h1>Exercice CANVAS Partie 3 JQuery</h1>
+        <p>Créer une div et un input. Au focus sur l'input,<br>vous devez pouvoir déplacer la div avec les flèches du clavier.</p>
+<!--     <div class="row justify-content-center mt-4">
+            <div id="box" class="col-5">-->   
+                <canvas id="ball" width="250" height="250"></canvas>
+<!--         </div>
+        </div>-->   
+        <div class="row justify-content-around mt-4">
+            <input type="text" class="form-control col-5">
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    <script src="js/script2.js"></script>
+    <script src="js/ball.js"></script>
+
 </body>
 </html>
